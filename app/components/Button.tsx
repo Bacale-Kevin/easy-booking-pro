@@ -28,7 +28,7 @@ const Button: React.FC<ButtonProps> = ({ label, onClick, disabled, icon: Icon, o
     
     `}
     >
-      {Icon && <Icon size="absolute left-4 top-3" />}
+      {Icon && <Icon size={24} className="absolute left-4 top-3" />}
       {label}
     </button>
   );
