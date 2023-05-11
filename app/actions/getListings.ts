@@ -27,7 +27,7 @@ export default async function getListings(params: IListingsParams) {
 
     if (roomCount) {
       query.roomCount = {
-        gte: +roomCount, //convert to number
+        gte: +roomCount,
       };
     }
 
